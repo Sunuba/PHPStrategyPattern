@@ -30,7 +30,7 @@ class Circle implements Calculator {
     }
 }
 
-class Person {
+class Engineer {
 
     public function calculateArea($w, $h, Calculator $calculator)
     {
@@ -38,4 +38,4 @@ class Person {
     }
 }
 
-echo (new Person())->calculateArea (10, 0, new Circle());
+echo (new Engineer())->calculateArea (10, 0, new Circle());
